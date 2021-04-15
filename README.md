@@ -1,5 +1,5 @@
 # melonDS Android port
-This is a WIP Android frontend for the melonDS Android port. For the Android port of the emulator, check out https://github.com/rafaelvcaetano/melonDS-android-lib
+This includes a modified version of https://github.com/rafaelvcaetano/melonDS-android-lib to include changes from https://github.com/Arisotura/melonDS/tree/cart_refactor
 
 # What is working
 *  Device scanning for ROMS
@@ -38,7 +38,7 @@ To build the project you will need Android NDK and CMake.
 Build steps:
 1.  Clone the project, including submodules with:
     
-    `git clone --recurse-submodules https://github.com/rafaelvcaetano/melonDS-android.git`
+    `git clone --recurse-submodules https://github.com/Dionicio3/melonDS-android.git`
 2.  Open the project in Android Studio.
 3.  Install the Android NDK and CMake from the SDK Manager
 4.  Hit Run
